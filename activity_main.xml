@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Area Of Triangle"
+        android:layout_centerHorizontal="true"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:id="@+id/txt1"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:src="@drawable/clipart2787735"
+        android:layout_marginTop="45dp"
+        android:id="@+id/img1"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Formula:- A=1/2*(B*H)"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/img1"
+        android:layout_marginTop="12dp"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:id="@+id/txt2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Base:-"
+        android:layout_below="@id/txt2"
+        android:layout_marginTop="12dp"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:id="@+id/txt3"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="00.00"
+        android:inputType="number"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/txt3"
+        android:layout_marginTop="12dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:id="@+id/edt1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Height:-"
+        android:layout_below="@id/edt1"
+        android:layout_marginTop="12dp"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:id="@+id/txt4"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="00.00"
+        android:inputType="number"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/txt4"
+        android:layout_marginTop="12dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:id="@+id/edt2"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Compute"
+        android:id="@+id/btn1"
+        android:textSize="25dp"
+        android:layout_marginTop="12dp"
+        android:layout_below="@id/edt2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:layout_below="@id/btn1"
+        android:layout_marginTop="18dp"
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:id="@+id/ans"/>
+
+
+</RelativeLayout>
